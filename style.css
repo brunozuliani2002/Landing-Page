@@ -1,0 +1,131 @@
+body, h1 , h2, h3,p,ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.menu{
+    width: 100%;
+    height:56px ;
+    background: black;
+    padding: 20px 0px 50px 50px;
+    position: fixed;
+}
+.logo{
+    display: block;
+    float: right;
+    margin-right: 70px;
+    height: 10px;
+}
+.menu-nubank{
+    max-width: 100%;
+    float: left;
+}
+
+.menu-nubank li{
+    margin-top: 18px;
+    margin-left: 80px;
+    display: inline-block;
+}
+
+.menu-nubank a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin-left: 33px;
+    font-family: 'cabin', sans-serif;
+    font-weight: bold;
+}
+
+.login li{
+    display: inline-block;
+    margin-top: 28px;
+    font-family: 'cabin', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding-right: 70px;
+}
+
+.login{
+    float: right;
+}
+
+.login a{
+    text-decoration: none;
+    color: white;
+    padding-right: 40px;
+}
+
+/* inicio da imagem apos o topo */
+    .imagem{
+        background: url("img/inicio.jpeg") no-repeat center center;
+        background-size: cover;
+        height: 865px;
+    }
+
+    .imagem h1{
+        padding: 370px 0 0 0;
+        margin-left: 220px;
+        margin-bottom: 10px;
+        font-family: 'cabin', sans-serif;
+        color: white;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .imagem h2{
+        margin-left: 220px;
+        font-family: 'cabin', sans-serif;
+        color: white;
+        font-size: 32px;
+        font-weight: lighter;
+    }
+
+    .form{
+        box-sizing: border-box;
+        background: white;
+        max-width: 330px;
+        height: 300px;
+        float: right;
+        border-radius: 8px;
+        text-align: left;
+        padding: 20px;
+        margin-top: -20px;
+        margin-right: 46px;
+        
+    }
+
+    .form h3{
+        color: black;
+        font-size: 22px;
+        margin-bottom: 80px;
+    }
+
+    .name{
+        color: grey;
+        font-size: 16px;
+        font-family: 'cabin', sans-serif;
+    }
+
+    .btt{
+        background: gray;
+        display: flex;
+        justify-content: space-between;
+        border: 0px;
+        align-items: center;
+        color: white;
+        width: 100%;
+        height: 30px;
+        border-radius: 15px;
+        margin-top: 10px;
+        padding: 20px;
+    }
+    
+    .campo{
+        width: 100%;
+        border-right: 0px;
+        border-left: 0px;
+        border-top: 0px;
+        padding-top: 8px;
+    }
+/* final da imagem apos o topo */
